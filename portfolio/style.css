@@ -92,13 +92,6 @@ p {
   margin-bottom: 0.25rem;
 }
 
-@media (max-width: 600px) {
-  .profile {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-
 .projects-scroll {
   max-height: 460px;
   overflow-y: auto;
@@ -204,4 +197,31 @@ footer {
   margin-top: 4rem;
   font-size: 0.85rem;
   color: var(--muted);
+}
+
+@media (max-width: 600px) {
+  .about {
+    font-size: 80%;
+  }
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+  .profile-info {
+    font-size: 70%;
+  }
+  .subtitle {
+    font-size: 100%;
+    text-align: center;
+  }
+  .profile-meta {
+    font-size: 100%;
+    text-align: center;
+  }
+  .project {
+    font-size: 85%;
+  }
+  .project .description {
+    font-size: 90%;
+  }
 }
